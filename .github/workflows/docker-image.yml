@@ -23,5 +23,5 @@ jobs:
       run: mvn clean package
 
     - name: Build Docker image
-      working-directory: deneme2
+      working-directory: deneme2/deneme2
       run: docker build -t deneme2:latest -f Dockerfile .
